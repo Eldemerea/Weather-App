@@ -11,6 +11,7 @@
 		04BFFA8E2D9DD4BC00FE0EC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFFA8D2D9DD4BC00FE0EC7 /* ContentView.swift */; };
 		04BFFA902D9DD4BF00FE0EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */; };
 		04BFFA932D9DD4BF00FE0EC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFA922D9DD4BF00FE0EC7 /* Preview Assets.xcassets */; };
+		04BFFA9A2D9E982400FE0EC7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFA992D9E982400FE0EC7 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		04BFFA8D2D9DD4BC00FE0EC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BFFA922D9DD4BF00FE0EC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04BFFA992D9E982400FE0EC7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				04BFFA8B2D9DD4BC00FE0EC7 /* WeatherAppApp.swift */,
+				04BFFA992D9E982400FE0EC7 /* Launch Screen.storyboard */,
 				04BFFA8D2D9DD4BC00FE0EC7 /* ContentView.swift */,
 				04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */,
 				04BFFA912D9DD4BF00FE0EC7 /* Preview Content */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BFFA9A2D9E982400FE0EC7 /* Launch Screen.storyboard in Resources */,
 				04BFFA932D9DD4BF00FE0EC7 /* Preview Assets.xcassets in Resources */,
 				04BFFA902D9DD4BF00FE0EC7 /* Assets.xcassets in Resources */,
 			);
