@@ -16,6 +16,7 @@
 		04E5AFA82DA1D14A006E9EB6 /* NIKEA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA42DA1D14A006E9EB6 /* NIKEA.otf */; };
 		04E5AFA92DA1D14A006E9EB6 /* Edensor-Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA52DA1D14A006E9EB6 /* Edensor-Free.otf */; };
 		04E5AFAA2DA1D14A006E9EB6 /* Satoshi-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */; };
+		04E5AFAD2DA1D551006E9EB6 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFAC2DA1D551006E9EB6 /* Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		04E5AFA52DA1D14A006E9EB6 /* Edensor-Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Edensor-Free.otf"; sourceTree = "<group>"; };
 		04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.ttf"; sourceTree = "<group>"; };
 		04E5AFAB2DA1D16B006E9EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04E5AFAC2DA1D551006E9EB6 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				04E5AFA32DA1D149006E9EB6 /* NexaRegular.ttf */,
 				04E5AFA42DA1D14A006E9EB6 /* NIKEA.otf */,
 				04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */,
+				04E5AFAC2DA1D551006E9EB6 /* Background.jpg */,
 				04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -155,6 +158,7 @@
 				04E5AFA72DA1D14A006E9EB6 /* NexaRegular.ttf in Resources */,
 				04BFFA932D9DD4BF00FE0EC7 /* Preview Assets.xcassets in Resources */,
 				04BFFA902D9DD4BF00FE0EC7 /* Assets.xcassets in Resources */,
+				04E5AFAD2DA1D551006E9EB6 /* Background.jpg in Resources */,
 				04E5AFA82DA1D14A006E9EB6 /* NIKEA.otf in Resources */,
 				04E5AFAA2DA1D14A006E9EB6 /* Satoshi-Variable.ttf in Resources */,
 			);
@@ -310,8 +314,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,8 +344,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
