@@ -6,22 +6,24 @@
 //
 
 import SwiftUI
+import UIKit
 
-struct ContentView: View {
+struct MainContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
         }
         .padding()
-        
         
     }
     
 }
 
+
 #Preview {
-    ContentView()
+    MainContentView()
 }

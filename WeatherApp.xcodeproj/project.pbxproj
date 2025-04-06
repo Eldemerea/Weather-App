@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BC4C0F2DA318FC009F1C8F /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C0E2DA318FC009F1C8F /* Keys.plist */; };
+		04BC4C132DA31AD5009F1C8F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4C122DA31AD5009F1C8F /* API.swift */; };
 		04BFFA8C2D9DD4BC00FE0EC7 /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFFA8B2D9DD4BC00FE0EC7 /* WeatherAppApp.swift */; };
-		04BFFA8E2D9DD4BC00FE0EC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFFA8D2D9DD4BC00FE0EC7 /* ContentView.swift */; };
+		04BFFA8E2D9DD4BC00FE0EC7 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BFFA8D2D9DD4BC00FE0EC7 /* MainContentView.swift */; };
 		04BFFA902D9DD4BF00FE0EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */; };
 		04BFFA932D9DD4BF00FE0EC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFA922D9DD4BF00FE0EC7 /* Preview Assets.xcassets */; };
-		04BFFA9A2D9E982400FE0EC7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BFFA992D9E982400FE0EC7 /* Launch Screen.storyboard */; };
 		04E5AFA72DA1D14A006E9EB6 /* NexaRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA32DA1D149006E9EB6 /* NexaRegular.ttf */; };
 		04E5AFA82DA1D14A006E9EB6 /* NIKEA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA42DA1D14A006E9EB6 /* NIKEA.otf */; };
 		04E5AFA92DA1D14A006E9EB6 /* Edensor-Free.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA52DA1D14A006E9EB6 /* Edensor-Free.otf */; };
 		04E5AFAA2DA1D14A006E9EB6 /* Satoshi-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */; };
-		04E5AFAD2DA1D551006E9EB6 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E5AFAC2DA1D551006E9EB6 /* Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BC4C0E2DA318FC009F1C8F /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		04BC4C122DA31AD5009F1C8F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		04BFFA882D9DD4BC00FE0EC7 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BFFA8B2D9DD4BC00FE0EC7 /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
-		04BFFA8D2D9DD4BC00FE0EC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04BFFA8D2D9DD4BC00FE0EC7 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BFFA922D9DD4BF00FE0EC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04BFFA992D9E982400FE0EC7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		04E5AFA32DA1D149006E9EB6 /* NexaRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NexaRegular.ttf; sourceTree = "<group>"; };
 		04E5AFA42DA1D14A006E9EB6 /* NIKEA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NIKEA.otf; sourceTree = "<group>"; };
 		04E5AFA52DA1D14A006E9EB6 /* Edensor-Free.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Edensor-Free.otf"; sourceTree = "<group>"; };
 		04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.ttf"; sourceTree = "<group>"; };
 		04E5AFAB2DA1D16B006E9EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		04E5AFAC2DA1D551006E9EB6 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BC4C102DA319FE009F1C8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04BFFA8B2D9DD4BC00FE0EC7 /* WeatherAppApp.swift */,
+				04BFFA8D2D9DD4BC00FE0EC7 /* MainContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04BC4C112DA31A10009F1C8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04E5AFA52DA1D14A006E9EB6 /* Edensor-Free.otf */,
+				04E5AFA32DA1D149006E9EB6 /* NexaRegular.ttf */,
+				04E5AFA42DA1D14A006E9EB6 /* NIKEA.otf */,
+				04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		04BFFA7F2D9DD4BC00FE0EC7 = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				04E5AFAB2DA1D16B006E9EB6 /* Info.plist */,
-				04BFFA8B2D9DD4BC00FE0EC7 /* WeatherAppApp.swift */,
-				04BFFA992D9E982400FE0EC7 /* Launch Screen.storyboard */,
-				04BFFA8D2D9DD4BC00FE0EC7 /* ContentView.swift */,
+				04BC4C102DA319FE009F1C8F /* Views */,
 				04E5AFA22DA1D0DD006E9EB6 /* Resources */,
 				04BFFA912D9DD4BF00FE0EC7 /* Preview Content */,
+				04BC4C122DA31AD5009F1C8F /* API.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -85,12 +104,9 @@
 		04E5AFA22DA1D0DD006E9EB6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04E5AFA52DA1D14A006E9EB6 /* Edensor-Free.otf */,
-				04E5AFA32DA1D149006E9EB6 /* NexaRegular.ttf */,
-				04E5AFA42DA1D14A006E9EB6 /* NIKEA.otf */,
-				04E5AFA62DA1D14A006E9EB6 /* Satoshi-Variable.ttf */,
-				04E5AFAC2DA1D551006E9EB6 /* Background.jpg */,
+				04BC4C112DA31A10009F1C8F /* Fonts */,
 				04BFFA8F2D9DD4BF00FE0EC7 /* Assets.xcassets */,
+				04BC4C0E2DA318FC009F1C8F /* Keys.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -154,12 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E5AFA92DA1D14A006E9EB6 /* Edensor-Free.otf in Resources */,
-				04BFFA9A2D9E982400FE0EC7 /* Launch Screen.storyboard in Resources */,
 				04E5AFA72DA1D14A006E9EB6 /* NexaRegular.ttf in Resources */,
 				04BFFA932D9DD4BF00FE0EC7 /* Preview Assets.xcassets in Resources */,
 				04BFFA902D9DD4BF00FE0EC7 /* Assets.xcassets in Resources */,
-				04E5AFAD2DA1D551006E9EB6 /* Background.jpg in Resources */,
 				04E5AFA82DA1D14A006E9EB6 /* NIKEA.otf in Resources */,
+				04BC4C0F2DA318FC009F1C8F /* Keys.plist in Resources */,
 				04E5AFAA2DA1D14A006E9EB6 /* Satoshi-Variable.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,7 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BFFA8E2D9DD4BC00FE0EC7 /* ContentView.swift in Sources */,
+				04BFFA8E2D9DD4BC00FE0EC7 /* MainContentView.swift in Sources */,
+				04BC4C132DA31AD5009F1C8F /* API.swift in Sources */,
 				04BFFA8C2D9DD4BC00FE0EC7 /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +329,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,7 +359,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
